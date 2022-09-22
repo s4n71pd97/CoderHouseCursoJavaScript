@@ -1,0 +1,10 @@
+CREATE TABLE `personas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(100) DEFAULT NULL,
+  `Apellido` varchar(100) DEFAULT NULL,
+  `DNI` varchar(20) DEFAULT NULL,
+  `CUIL` varchar(25) DEFAULT NULL,
+  `Ciudad` varchar(50) DEFAULT NULL,
+  `Direccion` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
